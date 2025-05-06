@@ -87,7 +87,6 @@ Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a la programación básica con MicroPython.
 
 - **Diapositiva:** [Clase 6]()
-- **Material Extra:**
 
 </details>
 
@@ -97,7 +96,6 @@ Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y
 Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuadores.
 
 - **Diapositiva:** [Clase 7]()
-- **Ejemplos en Wokwi:**
 
 </details>
 
@@ -107,7 +105,6 @@ Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuado
 Comunicación Serial. UART, I2C, SPI. Comunicación entre dispositivos.
 
 - **Diapositiva:** [Clase 8]()
-- **Ejemplos en Wokwi:**
 
 </details>
 
@@ -124,8 +121,6 @@ Estación. Punto de acceso. Web server.
 <summary>Clase 1️⃣0️⃣: 12 de Julio</summary>
 
 Laboratorio: Control de LEDs, botones y buzzer mediante pulsadores y por internet.
-
-- **Ejemplos en Wokwi:**
 
 </details>
 
