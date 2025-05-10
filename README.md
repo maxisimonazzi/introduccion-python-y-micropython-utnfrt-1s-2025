@@ -40,8 +40,11 @@ Todas las clases serán dictadas los dias Sabados en el horario de 10:00 a 12:00
 
 Breve historia de Python y su Filosofía. Principios de diseño de Python (PEP 20). Instalación y Configuración de Python y entornos de desarrollo (IDE).
 
-- **Diapositiva:** [Clase 1]()
+- **Diapositiva:** [Clase 1](Clase01.pdf)
 - **Material Extra:**
+  - [Interprete de Python](https://www.python.org/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Simulador Electrónico](https://wokwi.com/)
 
 </details>
 
