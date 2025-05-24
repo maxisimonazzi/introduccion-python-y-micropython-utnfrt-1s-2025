@@ -1,0 +1,16 @@
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print(lista)
+print("--"*20)
+print(lista[3:8])
+print(lista[3:8:1])
+print(lista[0:10:2])
+print(lista[1:10:2])
+print("--"*20)
+print(lista)
+print(lista[0:10])
+print(lista[0:-1])
+print(lista[0:])
+print(lista[:10])
+print("--"*20)
+print(lista[-1:-5:-1])

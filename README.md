@@ -53,7 +53,7 @@ Breve historia de Python y su Filosofía. Principios de diseño de Python (PEP 2
 
 Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadores. Estructuras de control (if, for, while).
 
-- **Diapositiva:** [Clase 2]()
+- **Diapositiva:** [Clase 2](Clase02.pdf)
 
 </details>
 
@@ -62,7 +62,7 @@ Sintaxis Básica y Estructuras de Control. Variables, tipos de datos y operadore
 
 Estructuras de Datos. Listas, tuplas, diccionarios y conjuntos. Manipulación y métodos asociados.
 
-- **Diapositiva:** [Clase 3]()
+- **Diapositiva:** [Clase 3](Clase03.pdf)
 
 </details>
 
@@ -142,5 +142,18 @@ Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de P
 Trabajando en equipo. Git y GitHub.
 
 - **Diapositiva:** [Clase Extra 2]()
+
+</details>
+
+<details>
+<summary>Paginas de consulta</summary>
+
+- [Python Documentation](https://docs.python.org/3/)
+- [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+- [W3Schools Python Tutorial](https://www.w3schools.com/python/)
+- [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3)
+- [Python Tutor](http://pythontutor.com/)
+- [Real Python](https://realpython.com/)
+- [GeeksforGeeks Python Programming Language](https://www.geeksforgeeks.org/python-programming-language/)
 
 </details>
