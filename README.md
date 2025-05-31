@@ -71,7 +71,7 @@ Estructuras de Datos. Listas, tuplas, diccionarios y conjuntos. Manipulación y 
 
 Funciones y Módulos. Definición y uso de funciones. Importación y creación de módulos.
 
-- **Diapositiva:** [Clase 4]()
+- **Diapositiva:** [Clase 4](Clase04.pdf)
 
 </details>
 
