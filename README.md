@@ -80,7 +80,7 @@ Funciones y Módulos. Definición y uso de funciones. Importación y creación d
 
 Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 
-- **Diapositiva:** [Clase 5]()
+- **Diapositiva:** [Clase 5](Clase05.pdf)
 
 </details>
 
