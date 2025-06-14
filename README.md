@@ -89,7 +89,14 @@ Conceptos Básicos de POO. Clases y objetos. Métodos y atributos.
 
 Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y otros lenguajes de programación para microcontroladores. Instalación de MicroPython en la placa ESP32. Introducción a la programación básica con MicroPython.
 
-- **Diapositiva:** [Clase 6]()
+- **Diapositiva:** [Clase 6](Clase06.pdf)
+- **Material Extra:**
+  - [MicroPython](https://micropython.org/)
+  - [Documentación de MicroPython](https://docs.micropython.org/en/latest/)
+  - [Drivers CH9102X](https://www.wch-ic.com/downloads/CH343SER_ZIP.html)
+  - [Drivers CH9102X en el repositorio](driverCH9102X/CH343SER.ZIP)
+  - [Thonny](https://thonny.org/)
+  - [Ejemplo en Wokwi: Blink con ESP32 y LED onboard](https://wokwi.com/projects/412197049127131137)
 
 </details>
 
