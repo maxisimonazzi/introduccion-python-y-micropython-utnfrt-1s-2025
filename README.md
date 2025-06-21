@@ -113,7 +113,9 @@ Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuado
   - [PWM con un LED](https://wokwi.com/projects/412827239122614273)
   - [Manejo de un servo con potenciómetro](https://wokwi.com/projects/412828987952574465)
   - [Módulo DHT22](https://wokwi.com/projects/412832035326576641)
+  - [Control de Servo con un DHT22](https://wokwi.com/projects/415860480303523841)
   - [Gráfica PWM en Desmos](https://www.desmos.com/calculator/wsspteh4rc?lang=es)
+  - [Video sobre charla de Servomotores con Micropython](https://www.youtube.com/watch?v=b26xHbYKIEo)
 
 </details>
 
