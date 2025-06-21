@@ -105,7 +105,15 @@ Qué es un microcontrolador y sus aplicaciones. Comparación entre MicroPython y
 
 Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuadores.
 
-- **Diapositiva:** [Clase 7]()
+- **Diapositiva:** [Clase 7](Clase07.pdf)
+- **Ejemplos en Wokwi:**
+  - [Uso de tres LEDs](https://wokwi.com/projects/412813092810329089)
+  - [Tres LEDs y tres botones](https://wokwi.com/projects/412816619189701633)
+  - [Potenciómetro](https://wokwi.com/projects/412823150331085825)
+  - [PWM con un LED](https://wokwi.com/projects/412827239122614273)
+  - [Manejo de un servo con potenciómetro](https://wokwi.com/projects/412828987952574465)
+  - [Módulo DHT22](https://wokwi.com/projects/412832035326576641)
+  - [Gráfica PWM en Desmos](https://www.desmos.com/calculator/wsspteh4rc?lang=es)
 
 </details>
 

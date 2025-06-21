@@ -24,7 +24,7 @@ def calcular_pi_lb(iteraciones):
     print(s)
 
 inicio = time.ticks_ms()
-calcular_pi_lb(500000)
+calcular_pi_lb(100000)
 fin = time.ticks_ms()
 
 tiempo_transcurrido = fin - inicio
