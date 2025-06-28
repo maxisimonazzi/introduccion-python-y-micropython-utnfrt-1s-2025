@@ -124,7 +124,21 @@ Control de Hardware Básico. Manejo de pines GPIO. Lectura de sensores y actuado
 
 Comunicación Serial. UART, I2C, SPI. Comunicación entre dispositivos.
 
-- **Diapositiva:** [Clase 8]()
+- **Diapositiva:** [Clase 8](Clase08.pdf)
+- **Ejemplos en Wokwi:**
+  - [Neopixel 1](https://wokwi.com/projects/434954418402471937)
+  - [Neopixel 2](https://wokwi.com/projects/434954614530239489)
+  - [Neopixel 3](https://wokwi.com/projects/434954774850177025)
+  - [Neopixel 4](https://wokwi.com/projects/434954896533232641)
+  - [Neopixel 5](https://wokwi.com/projects/434955247292401665)
+  - [Escáner de bus I2C](https://wokwi.com/projects/414079834163793921)
+  - [Display LCD 2x16 con I2C](https://wokwi.com/projects/414082182853706753)
+  - [Display LCD 2x16 con caracteres custom](https://wokwi.com/projects/414082835855619073)
+  - [Display LCD 2x16 con sensor de temperatura](https://wokwi.com/projects/414083765618679809)
+  - [Dos displays LCD 2x16 con sensor de temperatura](https://wokwi.com/projects/414085167768395777)
+  - [Display OLED SSD1306](https://wokwi.com/projects/414092239396279297)
+  - [Display OLED SSD1306 con sensor de temperatura](https://wokwi.com/projects/414092844302002177)
+  - [Creador de caracteres para LCD](https://maxpromer.github.io/LCD-Character-Creator/)
 
 </details>
 
