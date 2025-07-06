@@ -147,7 +147,7 @@ Comunicación Serial. UART, I2C, SPI. Comunicación entre dispositivos.
 
 Estación. Punto de acceso. Web server.
 
-- **Diapositiva:** [Clase 9]()
+- **Diapositiva:** [Clase 9](Clase09.pdf)
 
 </details>
 
@@ -163,7 +163,7 @@ Laboratorio: Control de LEDs, botones y buzzer mediante pulsadores y por interne
 
 Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de Python. Uso de bibliotecas populares (NumPy, matplotlib).
 
-- **Diapositiva:** [Clase Extra 1]()
+- **Diapositiva:** [Clase Extra 1](Clase_extra01.pdf)
 
 </details>
 
@@ -172,7 +172,7 @@ Bibliotecas Estándar y Externas. Introducción a las bibliotecas estándar de P
 
 Trabajando en equipo. Git y GitHub.
 
-- **Diapositiva:** [Clase Extra 2]()
+- **Diapositiva:** [Clase Extra 2](Clase_extra02.pdf)
 
 </details>
 
