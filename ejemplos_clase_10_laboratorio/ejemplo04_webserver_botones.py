@@ -236,7 +236,7 @@ def servidor_web(wlan):
         try:
             conn, addr = s.accept()
             print('Se conecto un usuario desde la IP %s' % str(addr))
-            request = conn.recv(1024).decode('utf-8')
+            request = conn.recv(1024)
             request = str(request)
 
             # Procesar comandos de LEDs
