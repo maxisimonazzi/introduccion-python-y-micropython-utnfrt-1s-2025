@@ -2,6 +2,7 @@
 #             Importaciones              #
 ##########################################
 
+from datos import red, contrasena
 import time
 import socket
 from machine import Pin, PWM, reset
@@ -26,32 +27,35 @@ boton_pins = [
     ]
 
 ##########################################
-#            Conexion Wi-Fi              #
-##########################################
-
-# Configurar la interfaz Wi-Fi en modo punto de acceso (AP)
-ap = network.WLAN(network.AP_IF)
-ap.active(True)
-
-# Configurar el SSID y la contraseña del AP
-ssid = 'Mi_ESP32_AP'
-password = '1234567890'
-ap.config(essid=ssid, password=password, authmode=network.AUTH_WPA_WPA2_PSK)
-
-# Configurar la dirección IP, la máscara de subred y la puerta de enlace
-ip = '10.0.0.15'
-mascara_subred = '255.255.255.0'
-puerta_enlace = '10.0.0.15'
-dns = '10.0.0.15'
-
-ap.ifconfig((ip, mascara_subred, puerta_enlace, dns))
-
-print('Punto de acceso configurado!')
-print('Configuración de red:', ap.ifconfig())
-
-##########################################
 #        Definicion de funciones         #
 ##########################################
+
+def conectar_wifi():
+    wlan = network.WLAN(network.STA_IF)
+    wlan.active(True)
+    
+    ssid = "xxx"
+    password = "yyy"
+    
+    print('Conectando a WiFi...')
+    wlan.connect(ssid, password)
+    
+    # Esperar conexión con timeout
+    contador = 0
+    while not wlan.isconnected() and contador < 10:
+        print('.', end='')
+        time.sleep(1)
+        contador += 1
+    
+    if wlan.isconnected():
+        print('\nConectado!')
+        config = wlan.ifconfig()
+        print(f'IP: {config[0]}')
+        print(f'Gateway: {config[2]}')
+        return wlan
+    else:
+        print('\nError: No se pudo conectar')
+        return None
 
 def web_page():
 
@@ -217,67 +221,81 @@ def web_page():
   """
     return html
 
-##########################################
-#           Creamos el Socket            #
-##########################################
-
-try:
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind(('', 80))
+# Crear servidor web para controlar LEDs
+def servidor_web(wlan):
+    addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
+    s = socket.socket()
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+    s.bind(addr)
     s.listen(5)
-except OSError as e:
-    print('OSError:', e)
-    reset()
-except Exception as e:
-    print('Error:', e)
-    reset()
+    
+    print(f'Servidor activo en: http://{wlan.ifconfig()[0]}')
+    print('Presiona Ctrl+C para detener')
+    
+    while True:
+        try:
+            conn, addr = s.accept()
+            print('Se conecto un usuario desde la IP %s' % str(addr))
+            request = conn.recv(1024).decode('utf-8')
+            request = str(request)
 
-##########################################
-#    Comienzo del programa principal     #
-##########################################
+            # Procesar comandos de LEDs
+            if request.find('/?led0=on') == 6:
+                led_pins[0].value(1)
+                print('LED 0 ON')
+            if request.find('/?led0=off') == 6:
+                led_pins[0].value(0)
+                print('LED 0 OFF')
+            if request.find('/?led1=on') == 6:
+                led_pins[1].value(1)
+                print('LED 1 ON')
+            if request.find('/?led1=off') == 6:
+                led_pins[1].value(0)
+                print('LED 1 OFF')
+            if request.find('/?led2=on') == 6:
+                led_pins[2].value(1)
+                print('LED 2 ON')
+            if request.find('/?led2=off') == 6:
+                led_pins[2].value(0)
+                print('LED 2 OFF')
+            if request.find('/?led3=on') == 6:
+                led_pins[3].value(1)
+                print('LED 3 ON')
+            if request.find('/?led3=off') == 6:
+                led_pins[3].value(0)
+                print('LED 3 OFF')
 
-while True:
-    try:
-        conn, addr = s.accept()
-        print('Se conecto un usuario desde la IP %s' % str(addr))
-        request = conn.recv(1024)
-        request = str(request)
+            respuesta = "HTTP/1.1 200 OK\r\n"
+            respuesta += "Content-Type: text/html; charset=UTF-8\r\n"
+            respuesta += "Content-Length: {}\r\n".format(len(web_page()))
+            respuesta += "Connection: close\r\n"
+            respuesta += "\r\n"
+            respuesta += web_page()
+            conn.sendall(respuesta)
+            time.sleep(0.5)
+            conn.close()
+            
+        except KeyboardInterrupt:
+            print('\nDeteniendo servidor...')
+            break
+        except OSError as e:
+            print('OSError:', e)
+            if 'conn' in locals():
+                conn.close()
+        except Exception as e:
+            print('Error:', e)
+            if 'conn' in locals():
+                conn.close()
+    
+    s.close()
 
-        if request.find('/?led0=on') == 6:
-            led_pins[0].value(1)
-            print('LED 0 ON')
-        if request.find('/?led0=off') == 6:
-            led_pins[0].value(0)
-            print('LED 0 OFF')
-        if request.find('/?led1=on') == 6:
-            led_pins[1].value(1)
-            print('LED 1 ON')
-        if request.find('/?led1=off') == 6:
-            led_pins[1].value(0)
-            print('LED 1 OFF')
-        if request.find('/?led2=on') == 6:
-            led_pins[2].value(1)
-            print('LED 2 ON')
-        if request.find('/?led2=off') == 6:
-            led_pins[2].value(0)
-            print('LED 2 OFF')
-        if request.find('/?led3=on') == 6:
-            led_pins[3].value(1)
-            print('LED 3 ON')
-        if request.find('/?led3=off') == 6:
-            led_pins[3].value(0)
-            print('LED 3 OFF')
+# Programa principal
+def main():
+    wlan = conectar_wifi()
+    if wlan:
+        servidor_web(wlan)
+    else:
+        print('No se pudo iniciar el servidor')
 
-        respuesta = web_page()
-        conn.send('HTTP/1.1 200 OK\n')
-        conn.send('Content-Type: text/html\n')
-        conn.send('Connection: close\n\n')
-        conn.sendall(respuesta)
-        time.sleep(0.5)
-        conn.close()
-    except OSError as e:
-        print('OSError:', e)
-        reset()
-    except Exception as e:
-        print('Error:', e)
-        reset()
+if __name__ == '__main__':
+    main()
