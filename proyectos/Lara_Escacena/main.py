@@ -25,8 +25,8 @@ tft = st7789.ST7789(spi, 135, 240,
 tft.init()
 
 # Wi-Fi
-ssid = "Luzmi"
-password = "40696991"
+ssid = "xxx"
+password = "123"
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)

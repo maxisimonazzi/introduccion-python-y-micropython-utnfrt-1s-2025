@@ -119,8 +119,8 @@ tft.init()
 ### 🌐 4️ Conexión a la red Wi-Fi
 
 ```python
-ssid = "Luzmi"
-password = "40696991"
+ssid = "xxx"
+password = "123"
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(ssid, password)
