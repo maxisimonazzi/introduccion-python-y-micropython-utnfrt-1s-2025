@@ -8,6 +8,12 @@ La LilyGO tiene también una pequeña pantalla que muestra mensajes como “alar
 
 Además, la placa crea una **página web** a la que se puede acceder desde el celular o la computadora. Desde esa página se puede activar o desactivar la alarma y ver en tiempo real el estado de cada sensor, como si fuera un panel de control.
 
+<div align="center">
+  
+  https://github.com/user-attachments/assets/1f1c528a-8571-4d0e-95ea-ce0769db8d96
+
+</div>
+
 ---
 
 ## 🛠 Componentes utilizados
