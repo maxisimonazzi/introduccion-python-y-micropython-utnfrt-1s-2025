@@ -277,3 +277,8 @@ while True:
 ## ✅ Conclusión
 
 Este proyecto combina hardware (sensores y relé) con software en **MicroPython** para crear una **alarma conectada** y fácil de controlar desde el celular o PC. Además, la pantalla LCD permite visualizar rápidamente el estado del sistema.
+
+## 👥 Integrantes
+
+- Lara Tomas 
+- Escacena Hugo Nahuel
