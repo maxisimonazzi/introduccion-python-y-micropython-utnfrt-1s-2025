@@ -39,6 +39,12 @@ El programa también imprime mensajes por consola para monitorear el estado del 
 - Si la lectura del sensor es `1` (puerta cerrada), el sistema permanece en espera y reporta el estado por consola.
 - Si la lectura es `0` (puerta abierta), el LED en `GPIO4` parpadea rápidamente (100 ms) como alerta visual y se informa por consola.
 
+<div align="center">
+  
+  https://github.com/user-attachments/assets/124ea1b1-1016-480b-b9d6-eceb47c026bf
+
+</div>
+
 ---
 
 ## 🧩 Explicación del código
