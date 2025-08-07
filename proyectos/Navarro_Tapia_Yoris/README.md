@@ -8,6 +8,11 @@ El dispensador cuenta con una pantalla LCD que muestra las opciones disponibles 
 
 Todo el sistema está programado en **MicroPython** y proporciona una experiencia interactiva y visual para la selección de bebidas.
 
+<div align="center">
+  
+  https://github.com/user-attachments/assets/82d85a58-6ca8-4903-a424-b4320fe1956f
+  
+</div>
 ---
 
 ## 🛠 Componentes utilizados
