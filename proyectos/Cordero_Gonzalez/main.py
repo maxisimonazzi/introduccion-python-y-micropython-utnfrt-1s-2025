@@ -31,8 +31,8 @@ prom_temp = 25.0
 prom_hum = 50.0
 
 #=====Datos red WiFi=====
-wifiName = "Contardo" #SSID
-wifiPass = "Berlin#898" #PASSWORD
+wifiName = "ssid" # Reemplazar con el nombre de la red WiFi
+wifiPass = "pass" # Reemplazar con la contraseña de la red WiFi
 
 #=====Funcion para conectar ESP32 a WiFi=====
 def do_connect(SSID, PASSWORD):
@@ -50,7 +50,7 @@ def do_connect(SSID, PASSWORD):
 do_connect(wifiName, wifiPass)
 
 #Codigo de autentificacion otorgado por Blynk para el envio de datos a dashboard
-BLYNK_AUTH = 's9CBTDsr2PzEy0-H_rjOgZ_8e4CshjjK'
+BLYNK_AUTH = 'auth' # Reemplazar con el token de autenticacion de Blynk
 blynk = BlynkLib.Blynk(BLYNK_AUTH)
 #Inicializar Blynk
 blynk.run()
