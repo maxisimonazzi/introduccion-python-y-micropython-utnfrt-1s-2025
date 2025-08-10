@@ -45,7 +45,7 @@ Al completar 4 bits, el sistema compara el registro con una clave predefinida (`
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/5d306bf0-ebf4-4e72-b3ee-aa09fc11f9ad
 
 </div>
 
