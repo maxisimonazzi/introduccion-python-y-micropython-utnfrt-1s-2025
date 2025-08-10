@@ -47,6 +47,13 @@ Cada pulsación limpia la pantalla, imprime el mensaje (en 2 líneas cuando corr
   - Se genera un tono con `PWM` en el buzzer (frecuencias: 440, 523, 587, 659 Hz) durante ~0,3 s.
   - Se aplica un pequeño retardo (`sleep_ms(300)`) que actúa como antirrebote.
 
+<div align="center">
+
+  https://github.com/user-attachments/assets/a392c51e-f543-4f5c-abe4-8b430277e7a5
+
+</div>
+
+
 ---
 
 ## 🧩 Explicación del código
