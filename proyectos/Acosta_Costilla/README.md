@@ -37,7 +37,7 @@ Este proyecto controla la apertura de la tapa de un cesto de basura de forma aut
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/026d6a3c-5dbd-4f59-8f3c-c7f24001997c
 
 </div>
 
