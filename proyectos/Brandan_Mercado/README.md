@@ -42,7 +42,7 @@ El ciclo se ejecuta de forma continua con temporizaciones: rojo 2 s, amarillo 2 
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/2aa33e30-6372-43db-a80d-dbc2fab9e679
 
 </div>
 
