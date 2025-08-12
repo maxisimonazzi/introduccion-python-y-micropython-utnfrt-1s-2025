@@ -60,7 +60,7 @@ La MEF decide acciones según la combinación de temperatura y humedad medidas.
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/f57041b1-c4cb-461e-ba59-a1b8340fe33f
 
 </div>
 
