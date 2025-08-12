@@ -41,7 +41,7 @@ Este proyecto implementa un **sistema de riego automático** para una planta uti
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/512fba89-b446-47f9-b659-c7c6c0d35397
 
 </div>
 
