@@ -48,7 +48,7 @@ Este proyecto implementa una **puerta automática** controlada por un **ESP32**.
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/75942a12-7009-4f1d-8432-8ada55d605d3
 
 </div>
 
