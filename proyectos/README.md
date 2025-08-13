@@ -4,6 +4,26 @@
 
 ¡Bienvenidos a la sección de proyectos finales del curso de MicroPython! Aquí cada grupo podrá subir su proyecto siguiendo las instrucciones detalladas a continuación. 🎉
 
+## 📚 Índice de proyectos
+- [🎮 Juego de Simon (Proyecto de ejemplo con instrucciones para subir un proyecto)](./Simonazzi_Apellido2_Apellido3/README.md)
+- [🗑️ Cesto de Basura Automático (Acosta_Costilla)](./Acosta_Costilla/README.md)
+- [🪴 Invernadero Automatizado (Barrionuevo_Amado_Aguero_Mereles)](./Barrionuevo_Amado_Aguero_Aguero_Mereles/readme.md)
+- [🚦 Semáforo con LCD (Brandan_Mercado)](./Brandan_Mercado/README.md)
+- [🌡️ Control de Temperatura y Humedad con Alarma (Carbajales)](./Carbajales/README.md)
+- [📡 Monitoreo Temperatura y Humedad con Blynk IoT (Cordero_Gonzalez)](./Cordero_Gonzalez/README.md)
+- [🌱 Sistema de Riego Automático (Coronel_Diaz_Sosalssi)](./Coronel_Diaz_Sosalssi/README.md)
+- [🚪 Detector de Puerta con Indicador LED (Ferreyra_Galvan_Gonzalez)](./Ferreyra_Galvan_Gonzalez/README.md)
+- [🥚 Incubadora de Huevos con MEF (Flores_Luna_Ruiz)](./Flores_Luna_Ruiz/README.md)
+- [📡 Alarma Inteligente LilyGO T-Display (Lara_Escacena)](./Lara_Escacena/README.md)
+- [🏗️ Grúa controlada con Joystick (Mancuso_Mancuso_Sanchez)](./Mancuso_Mancuso_Sanchez/README.md)
+- [🚪 Puerta Automática con Detección de Presencia (Navarro_Cisneros_Manca)](./Navarro_Cisneros_Manca/README.md)
+- [🥤 Dispensador de Bebidas (Navarro_Tapia_Yoris)](./Navarro_Tapia_Yoris/README.md)
+- [🛰️ Sistema de Rastreo GPS Neo-7 (Pacheco_Lobo)](./Pacheco_Lobo/README.md)
+- [🔐 Cerradura con Contraseña Binaria (Pintos_Santucho_dosSantos)](./Pintos_Santucho_dosSantos/README.md)
+- [🖥️ Mensajes en LCD con Botonera y Buzzer (Reyes _Sanchez)](./Reyes%20_Sanchez/README.md)
+- [🌡️ Control de Temperatura con Ventilador (Romano_Lazarte)](./Romano_Lazarte/README.md)
+- [🏠 Acceso Domótico – Semáforo, Portón y Mini Domótica (Rus_Saravia_Suarez_Medina)](./Rus_Saravia_Suarez_Medina/README.md)
+
 ---
 
 ## 📝 Requisitos del Proyecto
