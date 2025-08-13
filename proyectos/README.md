@@ -5,7 +5,7 @@
 ¡Bienvenidos a la sección de proyectos finales del curso de MicroPython! Aquí cada grupo podrá subir su proyecto siguiendo las instrucciones detalladas a continuación. 🎉
 
 ## 📚 Índice de proyectos
-- [🎮 Juego de Simon (Proyecto de ejemplo con instrucciones para subir un proyecto)](./Simonazzi_Apellido2_Apellido3/README.md)
+- [🎮 Juego de Simon (Carpeta de ejemplo con instrucciones para subir un proyecto)](./Simonazzi_Apellido2_Apellido3/README.md)
 - [🗑️ Cesto de Basura Automático (Acosta_Costilla)](./Acosta_Costilla/README.md)
 - [🪴 Invernadero Automatizado (Barrionuevo_Amado_Aguero_Mereles)](./Barrionuevo_Amado_Aguero_Aguero_Mereles/readme.md)
 - [🚦 Semáforo con LCD (Brandan_Mercado)](./Brandan_Mercado/README.md)
