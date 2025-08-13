@@ -20,7 +20,7 @@
 - [🥤 Dispensador de Bebidas (Navarro_Tapia_Yoris)](./Navarro_Tapia_Yoris/README.md)
 - [🛰️ Sistema de Rastreo GPS Neo-7 (Pacheco_Lobo)](./Pacheco_Lobo/README.md)
 - [🔐 Cerradura con Contraseña Binaria (Pintos_Santucho_dosSantos)](./Pintos_Santucho_dosSantos/README.md)
-- [🖥️ Mensajes en LCD con Botonera y Buzzer (Reyes _Sanchez)](./Reyes%20_Sanchez/README.md)
+- [🖥️ Mensajes en LCD con Botonera y Buzzer (Reyes _Sanchez)](./Reyes_Sanchez/README.md)
 - [🌡️ Control de Temperatura con Ventilador (Romano_Lazarte)](./Romano_Lazarte/README.md)
 - [🏠 Acceso Domótico – Semáforo, Portón y Mini Domótica (Rus_Saravia_Suarez_Medina)](./Rus_Saravia_Suarez_Medina/README.md)
 

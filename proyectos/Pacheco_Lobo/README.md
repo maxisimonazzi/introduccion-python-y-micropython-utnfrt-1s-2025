@@ -163,7 +163,7 @@ La lectura y decodificación de tramas NMEA permite obtener información precisa
 
 ## 👥 Integrantes
 
-* **Rocío Ahaní Pacheco**
-* **Ángel Tiago Lobo**
+- Pacheco, Rocío Ahaní
+- Lobo, Ángel Tiago Lobo
 
 ---
