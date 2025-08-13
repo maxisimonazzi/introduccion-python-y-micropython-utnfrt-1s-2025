@@ -75,7 +75,9 @@ Este proyecto unifica tres automatizaciones para el acceso y control del hogar, 
 - Interfaz web: HTML dinámico con botones ON/OFF e íconos que reflejan el estado de cada LED.
 
 <div align="center">
-  #video
+  
+  https://github.com/user-attachments/assets/b41a4bb8-3263-450a-9316-25bd90e9aa74
+
 </div>
 
 ---
