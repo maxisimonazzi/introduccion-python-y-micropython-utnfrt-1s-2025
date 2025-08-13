@@ -38,7 +38,7 @@ Este proyecto implementa un **sistema de control de temperatura** usando un **ES
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/b588812c-d053-498b-881e-e209fe275192
 
 </div>
 
