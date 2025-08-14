@@ -1,3 +1,8 @@
+# ejemplo1.py
+# Este codigo lee y muestra en consola las tramas NMEA crudas del GPS
+# (por ejemplo $GPRMC, $GPGGA), sin parsearlas ni extraer campos.
+# Integrantes: Rocio Pacheco, Lobo Tiago
+
 import machine
 from time import sleep
 

@@ -36,7 +36,13 @@ El sistema:
 4. Convierte las coordenadas de formato NMEA a formato decimal.
 5. Muestra en consola la información procesada.
 
-[![Video de funcionamiento](https://img.youtube.com/vi/gx2VcwsKnis/hqdefault.jpg)](https://youtu.be/gx2VcwsKnis)
+### Video del funcionamiento
+
+<div align="center">
+
+  [![Video de funcionamiento](https://img.youtube.com/vi/gx2VcwsKnis/hqdefault.jpg)](https://youtu.be/gx2VcwsKnis)
+
+</div>
 
 ---
 
