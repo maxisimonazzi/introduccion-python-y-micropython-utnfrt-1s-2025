@@ -7,6 +7,7 @@
 ## 📚 Índice de proyectos
 - [🎮 Juego de Simon (Carpeta de ejemplo con instrucciones para subir un proyecto)](./Simonazzi_Apellido2_Apellido3/README.md)
 - [🗑️ Cesto de Basura Automático (Acosta_Costilla)](./Acosta_Costilla/README.md)
+- [🚰 Medición de Nivel de Tanque con Control de Bomba (ESP32 + MicroPython) (Alderete_Angelillo)](./Alderete_Angelillo/README.md)
 - [🪴 Invernadero Automatizado (Barrionuevo_Amado_Aguero_Mereles)](./Barrionuevo_Amado_Aguero_Aguero_Mereles/readme.md)
 - [🚦 Semáforo con LCD (Brandan_Mercado)](./Brandan_Mercado/README.md)
 - [🌡️ Control de Temperatura y Humedad con Alarma (Carbajales)](./Carbajales/README.md)
