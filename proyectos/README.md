@@ -24,6 +24,7 @@
 - [🖥️ Mensajes en LCD con Botonera y Buzzer (Reyes_Sanchez)](./Reyes_Sanchez/README.md)
 - [🌡️ Control de Temperatura con Ventilador (Romano_Lazarte)](./Romano_Lazarte/README.md)
 - [🏠 Acceso Domótico – Semáforo, Portón y Mini Domótica (Rus_Saravia_Suarez_Medina)](./Rus_Saravia_Suarez_Medina/README.md)
+- [🔔 Alarma con Indicador de Temperatura y Humedad (Vera_Galvan)](./Vera_Galvan/README.md)
 
 ---
 
