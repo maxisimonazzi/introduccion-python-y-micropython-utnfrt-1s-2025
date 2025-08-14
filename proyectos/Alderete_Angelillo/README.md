@@ -41,7 +41,7 @@ Incluye modo manual desde la página web para forzar encendido/apagado de la bom
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/4a7e3bea-b3c7-4761-92bc-ad6d5ff335ce
 
 </div>
 
