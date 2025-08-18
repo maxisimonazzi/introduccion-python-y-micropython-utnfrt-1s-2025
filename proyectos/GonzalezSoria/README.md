@@ -36,7 +36,7 @@ Sistema de alerta visual de **temperatura** usando un **termistor NTC** conectad
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/52e1bb98-a246-48f1-826f-c08db8586aee
 
 </div>
 
