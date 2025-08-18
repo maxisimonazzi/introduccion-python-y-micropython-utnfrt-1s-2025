@@ -71,7 +71,7 @@ PMW necesarios para que el servo se mueva entre 0 y 180 grados.
 
 <div align="center">
 
-  #video
+  https://github.com/user-attachments/assets/9ccf4914-6423-484c-ab50-03cc6d1cec1e
 
 </div>
 
