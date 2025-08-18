@@ -15,6 +15,7 @@
 - [🌱 Sistema de Riego Automático (Coronel_Diaz_Sosalssi)](./Coronel_Diaz_Sosalssi/README.md)
 - [🚪 Detector de Puerta con Indicador LED (Ferreyra_Galvan_Gonzalez)](./Ferreyra_Galvan_Gonzalez/README.md)
 - [🥚 Incubadora de Huevos con MEF (Flores_Luna_Ruiz)](./Flores_Luna_Ruiz/README.md)
+- [🔴🟢 Alerta Visual de Temperatura con NTC (ESP32 + MicroPython) (Gonzalez_Soria)](./Gonzalez_Soria/README.md)
 - [📡 Alarma Inteligente LilyGO T-Display (Lara_Escacena)](./Lara_Escacena/README.md)
 - [🏗️ Grúa controlada con Joystick (Mancuso_Mancuso_Sanchez)](./Mancuso_Mancuso_Sanchez/README.md)
 - [🚪 Puerta Automática con Detección de Presencia (Navarro_Cisneros_Manca)](./Navarro_Cisneros_Manca/README.md)
