@@ -40,7 +40,7 @@ Sistema de control de **intersección** con dos semáforos vehiculares y un **bo
 
 <div align="center">
 
-  https://github.com/user-attachments/assets/2aa33e30-6372-43db-a80d-dbc2fab9e679
+  https://github.com/user-attachments/assets/c9c68c0a-3533-4aba-b905-a016aa728211
 
 </div>
 
